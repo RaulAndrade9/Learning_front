@@ -54,8 +54,15 @@ p {
     border-radius: 4px;
     text-align: center;
     font-size: 1rem;
-
+    
 }
+
+.header-item-lista:hover{
+    border: solid red 1px;
+}
+
+
+
 
 /*------------------CSS Main-------------------*/
 
@@ -110,6 +117,10 @@ p {
     place-self: end;
 }
 
+.botao-section1:hover{
+    background: #900;
+}
+
 .img-section2{
     max-width: 100%;
     display: block;
@@ -120,7 +131,7 @@ p {
 }
 
 .vantagens-section3{
-    font-size: 64px;
+    font-size: 4rem;
     text-transform: uppercase;
     color:#c6c6c6 ;
     text-align: right;
@@ -133,9 +144,11 @@ p {
     align-content: center;
     gap: 20px 20px;
     padding: 30px;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0px;
 }
+
+
 
 .principal-section4 p{
     grid-column: 2;
@@ -148,7 +161,7 @@ p {
     background: white;
     text-align: center;
     padding: 20px;
-    font-size: 20px;
+    font-size: 1.25rem;
     width: 100%;
     box-sizing: border-box;
 }
