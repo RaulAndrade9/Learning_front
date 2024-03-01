@@ -283,6 +283,7 @@ img{
  .texto-rodape{
     color:#ccc ;
     font-size:1.5rem ;
+    align-items: center;
  }
  .lista-rodape{
     margin: 0 auto;
