@@ -12,9 +12,11 @@
 body{
     font-family: var(--fonte-principal);
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
-ul{
+ul, li{
     list-style: none;
     margin: 0;
 }
@@ -24,7 +26,13 @@ a{
     color: #000;
 }
 
+img{
+    display: block;
+}
+
 /*----------header----------*/
+
+
 
 .cabecalho{
     display: flex;
@@ -181,7 +189,7 @@ a{
 }
 .formacao-itens{
     display: grid;
-    gap: 30px;
+    gap: 20px;
 
 }
 
@@ -199,8 +207,8 @@ a{
     font-size:1.5rem ;
     color: #525252;
     margin-bottom: 1rem;
-    
-    
+    margin-left: 10px;
+       
  }
  .span-formacao{
     color: #fff;
@@ -228,4 +236,64 @@ a{
     text-transform: uppercase;
     color: #a3a3a3;
     align-content: end;
+ }
+
+ .formacao-cursos{
+    display: grid;
+    grid-column: 2;
+    gap: 30px;
+    margin-left: 10px;
+ }
+
+ .formacao-cursos-titulo{
+    color:#a3a3a3 ;
+ }
+ .lista-formacao-cursos{
+    margin-bottom: 2.5rem;
+ }
+ .formacao-cursos-feitos{
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.025rem;
+ }
+ .span-formacao-cursos{
+    color: #a3a3a3;
+ }
+ .span-horas{
+    margin-left: 2rem;
+ }
+ 
+ /*-------------------------*/
+
+ .rodape{
+    background-color: #000;
+    padding: 5rem;
+ }
+ .itens-rodape{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 77.5rem;
+    margin: 0px auto;
+    align-items: center;
+    color: #fff;
+    padding: 2rem;
+    gap: 50px;  
+ }
+ .texto-rodape{
+    color:#ccc ;
+    font-size:1.5rem ;
+ }
+ .lista-rodape{
+    margin: 0 auto;
+ }
+ .contato-rodape{
+    font-size: 2.3rem; 
+    justify-content: flex-start;
+    margin-top: 3rem;
+    font-weight: bold;
+ }
+
+ .direitos-rodape{
+    color: #8f8f8f;
  }
