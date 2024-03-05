@@ -189,10 +189,9 @@ img{
 .formacao-itens{
     display: grid;
     gap: 20px;
+    position: relative;
 
 }
-
-
 .titulo-formacao{
     font-size: 5rem;
     color: #000;
@@ -200,7 +199,6 @@ img{
     word-break: break-all;
     line-height: 1;
     max-width: 7ch;
-    
 }
  .formacao-paragrafo{
     font-size:1.5rem ;
@@ -217,8 +215,10 @@ img{
  .lista-formacao{
     display: flex;
     justify-content: start;
+    position: relative;
     
  }
+
 .item-lista-formacao{
     background-color: #000;
     margin: 10px;
@@ -227,6 +227,15 @@ img{
     width: 16rem;
     text-align: left;
 }
+ .item-lista-formacao::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 40px;
+    background: linear-gradient(#b6f829, #67dd0a);
+    position: absolute;
+    left: 5px;
+ }
 .lista-formacao-funcao{
     color: white;
     margin: 20px 0 40px 0;
